@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+*html{
+	margin:0;
+	padding:0;
+	}
+
+#wrapper{
+	width:80%;
+	height:auto;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#8a8a8a;
+	margin:auto;
+	}
+
+#body{
+	height:auto;
+	width:100%;
+	}
+
+#sidebar{
+	width:95px;
+	height:501px;
+	background-image:url(images/sidebar.jpg);
+	background-repeat:no-repeat;
+	}
+
+#rightside{
+	width:80%;
+	height:500px;
+	position:absolute;
+	top:91px;
+	left:245px;
+}
+
+#top{
+	width:90%;
+	height:65px;
+	background-image:url(images/topbar_spacer.jpg);
+	background-repeat:repeat-x;
+	position:relative;}
+#below{
+	width:90%;
+	height:65px;
+	background-color:#f9f9f9;
+	position:relative;}
+
+h2{
+	color:#d22e12;
+	font-size:14px;}
+
+p{
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#8a8a8a;
+	}
+
+#menu{
+	background-image:url(images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:90%;
+	height:400px;
+	
+	}
+
+.first{
+	background-image:url(images/apple.jpg);
+	background-repeat:no-repeat;
+	width:82px;
+	height:97px;
+	}
+
+.menutable{
+	margin:auto;
+	text-align:center;}
+.menutable a{
+	border:none;
+	text-decoration:none;
+	color:#8a8a8a;
+	}
+.menutable a:hover{
+	color:#d22e12;
+}
+
+.table tr{
+	height:20px;
+	}
+.table tr:hover{
+	background-color:#F30;
+	color:#fff;
+	}
+
+
+.tfield{
+	border:1px solid #CCC;
+	height:25px;
+	}
+	
+	
+	.msg {padding:10px; padding-left:35px;}
+.msg.warning {background:url("images/ico-warning.gif") 10px 50% no-repeat;}
+.msg.info {background:url("images/ico-info.gif") 10px 50% no-repeat;}
+.msg.done {background:url("images/ico-done.gif") 10px 50% no-repeat;}
+.msg.error {background:url("images/ico-delete.gif") 10px 50% no-repeat;}
+
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {border:2px solid #B8E2FB; background-color:#E8F6FF;}
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;}
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;}
+
